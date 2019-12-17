@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<meta charset = "UTF-8">
+		<TITLE>Страница Максимова Андрея</TITLE>
+		<!-- CSS часть документа -->
+		<STYLE>
+			body{
+				background: #808080;
+				color: #fc0; ;
+			}
+			p{
+				font-size: 22pt;
+			}
+			h3{
+				color: black;
+				font-size: 13pt;
+			}
+			h4{
+				color: black;
+
+			}
+			.block1 {
+				width: 440pt;
+    			margin-left: auto;
+    			margin-right: auto;
+    			text-align: center
+			}
+			.Monday {
+				margin-left: auto;
+    			margin-right: auto;
+    			text-align: center;
+			}
+			.Wednesday {
+				margin-left: auto;
+    			margin-right: auto;
+    			text-align: center;
+			}
+			.Thursday {
+				margin-left: auto;
+    			margin-right: auto;
+    			text-align: center;
+			}
+			.Friday {
+				margin-left: auto;
+    			margin-right: auto;
+    			text-align: center;
+			}
+			.Saturday {
+				margin-left: auto;
+    			margin-right: auto;
+    			text-align: center;
+			}
+			.Form {
+				width: 180pt;
+				margin-left: auto;
+    			margin-right: auto;
+    			border: 2px solid #e34761; /* Параметры рамки */
+   				background: #808080; /* Цвет фона */
+    			font-size: 14px; /* Размер текста */
+    			padding: 15px 20px; /* Поля вокруг текста */
+			}
+
+		</STYLE>
+		<P ALIGN = CENTER><STRONG> Максимов Андрей Владимирович СГН3-31Б </STRONG></P>
+	</HEAD>
+	<BODY>
+		<!-- Фото и ссылка на бауманку -->
+		<div class = "block1">
+			<img src = 'image.jpeg' alt = "МГТУ им Баумана" height="350" width="600">
+			<a href = "http://www.bmstu.ru"> МГТУ им Н.Э.Баумана</a>
+		</div>
+		<!-- Расписание -->
+		<div class = "Monday">
+			<H2><STRONG>ПОНЕДЕЛЬНИК</STRONG></H1>
+				<h3>10:00 - 13:30</h3>
+				<h4>Математика</h4>
+		</div>
+
+		<div class = "Wednesday">
+			<H2><STRONG>СРЕДА</STRONG></H1>
+				<h3>8:30 - 10:05</h3>
+					<h4>Политический анализ</h4>
+				<h3>10:05 - 12:00</h3>
+					<h4>Социальные системы и процессы</h4>
+		</div>
+
+		<div class = "Thursday">
+			<H2><STRONG>ЧЕТВЕРГ</STRONG></H1>
+				<H3>13:50 - 15:25</H3>
+					<H4>Философия</H4>
+				<h3>15:40 - 17:15</h3>
+					<H4>Языки интернет-программирования</H4>
+		</div>
+
+		<div class = "Friday">
+			<H2><STRONG>ПЯТНИЦА</STRONG></H1>
+				<H3>13:50 - 15:25</H3>
+					<H4>Теория разработки и принятия управленческого решения</H4>
+				<h3>15:40 - 17:15</h3>
+					<H4>Английский</H4>
+				<h3>17:25 - 19:00</h3>
+					<H4>Теория разработки и принятия управленческого решения</H4>
+		</div>
+
+		<div class = "Saturday">
+			<H2><STRONG>СУББОТА</STRONG></H1>
+				<h3>8:30 - 12:00</h3>
+					<h4>Программная инженерия</h4>
+		</div>
+
+		<!-- Форма -->
+		<div class = "Form">
+			<form action="/form_submit" method="get">
+				<Strong>Имя: <input type="text" name="fname" /><br /></Strong>
+				<Strong>Фамилия: <input type="text" name="lname" /></Strong><br />
+				<Strong>Пол: <input type="radio" name="gender" value="м"/>м</Strong>
+				<input type="radio" name="gender" value="ж"/>ж<br />
+				<Strong>Группа:<input type="text" name="lname" /><br /></Strong>
+				
+				<input type="submit" value="Отправить" />
+			</form>
+
+		</div>
+	</BODY>
+</HTML>
