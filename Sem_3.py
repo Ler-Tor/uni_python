@@ -1,5 +1,5 @@
 #Var 6 
-'''
+
 def Zadanie_1():
     F = {'Russia': ['Europe', 12121212],
             'Germany': ['Europe', 12121212],
@@ -12,7 +12,7 @@ def Zadanie_1():
             print(k)
             land = land + val[1]
     print(land)    
-'''
+
 def Zadanie_2():
     A = {
         '1a': 20,
@@ -63,6 +63,6 @@ def Zadanie_3():
         return(sred)
     print(summ(A))
 
-Zadanie_3()
+Zadanie_1()
 
 

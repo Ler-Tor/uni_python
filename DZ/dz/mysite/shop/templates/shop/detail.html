@@ -1,0 +1,24 @@
+{% load staticfiles %}
+
+<html>
+<head>
+<title>{{ shop.shop_name }}</title>
+<link rel="stylesheet" type="text/css" href="{% static 'shop/detail.css' %}" />
+<link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class = "Head">
+		<h1>{{ shop.shop_name }}</h1>
+	</div>
+	<div class = "info">
+		<ul>
+		{% for books in shop.book_set.all %}
+    		<h3>{{ books.book_name }}</h3>
+    			<b>Информация о книге</b>
+    			<p>{{books.book_info}}</p>
+		{% endfor %}
+		</ul>
+	</div>
+</body>
+</html>

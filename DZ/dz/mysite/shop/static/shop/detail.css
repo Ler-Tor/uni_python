@@ -1,0 +1,30 @@
+
+
+
+body{
+	background-image: url(https://cdnimg.rg.ru/img/content/177/12/83/iStock-9491180681000_d_850.jpg);
+
+}
+
+.Head{
+	color: Yellow;
+	font-size: 40;
+	text-align: center;
+}
+
+.info {
+	color: Yellow;
+	text-align: center;
+}
+
+.info h3{
+	font-size: 30;
+
+}
+.info b{
+	font-size: 20;
+}
+
+.info p{
+	font-size: 20;
+}
